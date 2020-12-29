@@ -1,10 +1,24 @@
 .navbar {
-  height: 65px;
+  height: 100vh;
+  position: sticky;
   display: flex;
-  background-color: red;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  border-left: 3px solid #474b4f;
+
   .navbar_nav {
+    padding: 10px;
     display: flex;
+    border-left: 3px solid;
+    margin-left: -3px;
+    border-image: linear-gradient(180deg, #86c232, rgb(255, 255, 255)) 1;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 2px;
+    .navbar_options {
+      color: orange;
+      margin: 0px 5px;
+    }
   }
 }
