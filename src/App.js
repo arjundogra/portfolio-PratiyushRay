@@ -10,6 +10,10 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
+          <Route path="/about">
+            <Navbar />
+            <ContactUs />
+          </Route>
           <Route path="/">
             <Navbar />
             <Home />

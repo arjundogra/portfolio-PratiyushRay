@@ -16,12 +16,16 @@
     align-items: center;
     height: 100px;
     margin-bottom: 2px;
+    a {
+      text-decoration: none;
+    }
     .navbar_options {
       color: #6b6e70;
       margin: 0px 5px;
       transition: ease-in 0.3s;
       &:hover {
         color: white;
+        font-size: 18px;
       }
     }
   }

@@ -15,11 +15,14 @@
     a {
       color: #6b6e70;
       margin-right: 10px;
-      transition: all ease-in 0.3s;
+      transition: all ease-in-out 0.3s;
       font-size: 25px;
       &:hover {
         color: white;
-        font-size: 35px;
+        svg {
+          transition: ease-in-out 0.3s;
+          font-size: 35px;
+        }
       }
     }
   }
