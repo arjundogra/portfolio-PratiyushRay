@@ -1,0 +1,26 @@
+.contactUs {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  .icons {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 25px;
+    border-right: 3px solid #86c232;
+    a {
+      color: #6b6e70;
+      margin-right: 10px;
+      transition: all ease-in 0.3s;
+      font-size: 25px;
+      &:hover {
+        color: white;
+        font-size: 35px;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 .navbar {
   height: 100vh;
-  position: sticky;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -10,15 +10,19 @@
   .navbar_nav {
     padding: 10px;
     display: flex;
-    border-left: 3px solid;
+    border-left: 3px solid #86c232;
     margin-left: -3px;
-    border-image: linear-gradient(180deg, #86c232, rgb(255, 255, 255)) 1;
+    // border-image: linear-gradient(180deg, #86c232, rgb(255, 255, 255)) 1;
     align-items: center;
     height: 100px;
     margin-bottom: 2px;
     .navbar_options {
-      color: orange;
+      color: #6b6e70;
       margin: 0px 5px;
+      transition: ease-in 0.3s;
+      &:hover {
+        color: white;
+      }
     }
   }
 }

@@ -7,13 +7,13 @@ function Navbar() {
         <div className="navbar_options">Home</div>
       </div>
       <div className="navbar_nav">
-        <div className="navbar_options">Home</div>
+        <div className="navbar_options">About</div>
       </div>
       <div className="navbar_nav">
-        <div className="navbar_options">Home</div>
+        <div className="navbar_options">Projects</div>
       </div>
       <div className="navbar_nav">
-        <div className="navbar_options">Home</div>
+        <div className="navbar_options">Resume</div>
       </div>
     </div>
   );
