@@ -5,13 +5,29 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  .resumeButton {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    margin: 15px 20px;
+    border: 2px solid yellowgreen;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 8px 18px;
+    font-weight: 100;
+    transition: ease-in 0.4s;
+    &:hover {
+      background-color: rgba(170, 255, 0, 0.2);
+    }
+  }
   .icons {
     height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-right: 25px;
-    border-right: 3px solid #86c232;
+    border-right: 3px solid rgb(154, 205, 50);
     a {
       color: #6b6e70;
       margin-right: 10px;

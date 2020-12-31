@@ -5,22 +5,26 @@
   flex-direction: column;
   justify-content: space-evenly;
   margin-left: 20px;
-  border-left: 3px solid #474b4f;
+  border-left: 4px solid #474b4f;
 
   .navbar_nav {
     padding: 10px;
     display: flex;
-    border-left: 3px solid #86c232;
-    margin-left: -3px;
+    border-left: 4px solid #9acd32;
+    margin-left: -4px;
     // border-image: linear-gradient(180deg, #86c232, rgb(255, 255, 255)) 1;
     align-items: center;
     height: 100px;
     margin-bottom: 2px;
     a {
+      color: #6b6e70;
       text-decoration: none;
     }
+    .activeNav {
+      color: rgb(79, 219, 230);
+      font-size: 18px;
+    }
     .navbar_options {
-      color: #6b6e70;
       margin: 0px 5px;
       transition: ease-in 0.3s;
       &:hover {

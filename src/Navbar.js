@@ -1,24 +1,43 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar_nav">
-        <Link to="/">
+        <NavLink exact to="/" className="notActive" activeClassName="activeNav">
           <div className="navbar_options">Home</div>
-        </Link>
+        </NavLink>
       </div>
       <div className="navbar_nav">
-        <Link to="/about">
+        <NavLink
+          exact
+          to="/about"
+          className="notActive"
+          activeClassName="activeNav"
+        >
           <div className="navbar_options">About</div>
-        </Link>
+        </NavLink>
       </div>
       <div className="navbar_nav">
-        <div className="navbar_options">Projects</div>
+        <NavLink
+          exact
+          to="/skills"
+          className="notActive"
+          activeClassName="activeNav"
+        >
+          <div className="navbar_options">Skills</div>
+        </NavLink>
       </div>
       <div className="navbar_nav">
-        <div className="navbar_options">Resume</div>
+        <NavLink
+          exact
+          to="/projects"
+          className="notActive"
+          activeClassName="activeNav"
+        >
+          <div className="navbar_options">Projects</div>
+        </NavLink>
       </div>
     </div>
   );
