@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Skills from "./Skillss";
+import Experience from "./Experience";
 import Projects from "./Projects";
 import Logo from "./Logo";
 import React, { useState, useEffect } from "react";
@@ -30,6 +31,11 @@ function App() {
           <Route path="/about">
             <Navbar />
             <About />
+            <ContactUs />
+          </Route>
+          <Route path="/experience">
+            <Navbar />
+            <Experience />
             <ContactUs />
           </Route>
           <Route path="/skills">

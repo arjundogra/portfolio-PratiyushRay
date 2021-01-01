@@ -22,6 +22,16 @@ function Navbar() {
       <div className="navbar_nav">
         <NavLink
           exact
+          to="/experience"
+          className="notActive"
+          activeClassName="activeNav"
+        >
+          <div className="navbar_options">Experience</div>
+        </NavLink>
+      </div>
+      <div className="navbar_nav">
+        <NavLink
+          exact
           to="/skills"
           className="notActive"
           activeClassName="activeNav"

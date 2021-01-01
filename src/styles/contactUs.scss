@@ -49,6 +49,7 @@
       margin: 10px;
       padding: 5px 10px;
       font-size: 10px;
+      border-width: 1px;
     }
     .icons {
       height: 180px;
@@ -58,6 +59,11 @@
         margin-right: 5px;
         svg {
           font-size: 17px;
+        }
+        &:hover {
+          svg {
+            font-size: 17px;
+          }
         }
       }
     }
