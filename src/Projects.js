@@ -1,4 +1,5 @@
 import React from "react";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 function Projects() {
   return (
@@ -7,17 +8,21 @@ function Projects() {
         <p className="projects_title">PROJECTS</p>
         <div className="projects_panel">
           <div className="projects_panel_data">
-            <img />
-            <p className="project_panel_data_title">Title1</p>
+            <img src="/UIETapp.jpeg" />
+            <p className="project_panel_data_title">UIET KUK App</p>
             <div className="project_links">
-              <a href="github.com">Github</a>
+              <a href="github.com">
+                <GitHubIcon />
+              </a>
             </div>
           </div>
           <div className="projects_panel_data">
-            <img />
-            <p className="project_panel_data_title">Title2</p>
+            <img src="/Atenmal.jpeg" />
+            <p className="project_panel_data_title">Atenmal</p>
             <div className="project_links">
-              <a href="github.com">Github</a>
+              <a href="github.com">
+                <GitHubIcon />
+              </a>
             </div>
           </div>
         </div>

@@ -6,6 +6,11 @@
   align-items: center;
   .projects_container {
     width: 60%;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s 1;
     .projects_title {
       width: 100%;
       text-align: center;
@@ -17,19 +22,41 @@
     .projects_panel {
       display: flex;
       justify-content: space-evenly;
+      padding: 15px;
+
       .projects_panel_data {
-        min-width: 200px;
-        min-height: 300px;
-        border: 1px solid yellowgreen;
+        background-color: rgb(27, 30, 32);
+        border-radius: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        box-shadow: 0 4px 8px 0 rgb(79, 219, 230),
+          0 6px 20px 0 rgba(154, 205, 50, 0.4);
         img {
-          height: 200px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          width: 220px;
           object-fit: contain;
         }
         .project_panel_data_title {
-          color: burlywood;
+          color: rgb(79, 219, 230);
+          font-weight: 600;
+          margin: 10px 0px;
+        }
+        .project_links {
+          display: flex;
+          align-items: center;
+
+          a {
+            color: #6b6e70;
+            text-decoration: none;
+            transition: all ease-in 0.2s;
+            margin: 0px 5px;
+            margin-bottom: 10px;
+            &:hover {
+              color: yellowgreen;
+            }
+          }
         }
       }
     }

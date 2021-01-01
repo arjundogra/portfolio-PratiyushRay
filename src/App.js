@@ -26,7 +26,6 @@ function App() {
   ) : (
     <Router>
       <div className="App">
-        <Logo />
         <Switch>
           <Route path="/about">
             <Navbar />

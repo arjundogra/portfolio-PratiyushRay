@@ -10,8 +10,9 @@ export default () => (
           <Tab>Programming</Tab>
           <Tab>Operating System </Tab>
           <Tab>Networking</Tab>
-          <Tab>Tools</Tab>
           <Tab>Cyber Security</Tab>
+          <Tab>Android Development</Tab>
+          <Tab>Tools</Tab>
         </TabList>
 
         <TabPanel className="tabPanel">
@@ -107,6 +108,34 @@ export default () => (
         </TabPanel>
         <TabPanel className="tabPanel">
           <div className="icon_panels">
+            <p className="icon_name">Android Security</p>
+          </div>
+          <div className="icon_panels">
+            <p className="icon_name">Network Security</p>
+          </div>
+          <div className="icon_panels">
+            <p className="icon_name">Website Security</p>
+          </div>
+          <div className="icon_panels">
+            <p className="icon_name">Application Security</p>
+          </div>
+        </TabPanel>
+        <TabPanel className="tabPanel">
+          <div className="icon_panels">
+            <p className="icon_name"> Front End with XML</p>
+          </div>
+          <div className="icon_panels">
+            <p className="icon_name">Backend Management with Firebase</p>
+          </div>
+          <div className="icon_panels">
+            <p className="icon_name">Realtime database</p>
+          </div>
+          <div className="icon_panels">
+            <p className="icon_name">Authentication</p>
+          </div>
+        </TabPanel>
+        <TabPanel className="tabPanel">
+          <div className="icon_panels">
             <p className="icon_name">Burpsuite</p>
           </div>
           <div className="icon_panels">
@@ -126,31 +155,6 @@ export default () => (
           </div>
           <div className="icon_panels">
             <p className="icon_name">Backdoor Factory</p>
-          </div>
-        </TabPanel>
-        <TabPanel className="tabPanel">
-          <div className="icon_panels">
-            <p className="icon_name">Android Security</p>
-          </div>
-          <div className="icon_panels">
-            <p className="icon_name">Network Security</p>
-          </div>
-          <div className="icon_panels">
-            <p className="icon_name">Website Security</p>
-          </div>
-          <div className="icon_panels">
-            <p className="icon_name">Application Security</p>
-          </div>
-          <div className="icon_panels">
-            <p className="icon_name">Android Development Front End with XML</p>
-          </div>
-          <div className="icon_panels">
-            <p className="icon_name">
-              Backend Management with Firebase Realtime database
-            </p>
-          </div>
-          <div className="icon_panels">
-            <p className="icon_name">Authentication</p>
           </div>
         </TabPanel>
       </Tabs>

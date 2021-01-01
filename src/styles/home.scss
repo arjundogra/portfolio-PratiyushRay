@@ -217,3 +217,33 @@
     clip: rect(123px, 400px, 106px, 12px);
   }
 }
+@media (max-width: 768px) {
+  .home {
+  }
+}
+@media (max-width: 425px) {
+  .home {
+    .home_container {
+      width: 80%;
+      flex-direction: column-reverse;
+      .info {
+        width: 80%;
+        .line_one {
+          font-size: 14px;
+        }
+        .line_two {
+          font-size: 20px;
+        }
+        .line_three {
+          font-size: 12px;
+        }
+      }
+      img {
+        width: 150px;
+      }
+    }
+  }
+  .glitch {
+    font-size: 20px !important;
+  }
+}

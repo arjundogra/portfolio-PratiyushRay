@@ -42,3 +42,24 @@
     }
   }
 }
+@media (max-width: 425px) {
+  .about {
+    .about_info {
+      width: 80%;
+      border: none;
+      .about_title {
+        font-size: 20px;
+      }
+      .about_info_data {
+        flex-direction: column-reverse;
+        padding: 0px 15px;
+        img {
+          width: 120px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

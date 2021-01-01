@@ -12,7 +12,6 @@ function Home() {
               <h1 class="glitch">Pratiyush Ray</h1>
             </div>
           </span>
-          <br></br>
           <span className="line_three">
             Cyber Security Analyst, Android App Developer
           </span>

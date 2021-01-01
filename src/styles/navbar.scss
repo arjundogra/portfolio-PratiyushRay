@@ -34,3 +34,26 @@
     }
   }
 }
+@media (max-width: 425px) {
+  .navbar {
+    margin-left: 10px;
+    border-width: 2px;
+    .navbar_nav {
+      padding: 5px;
+      border-width: 2px;
+      margin-left: -2px;
+      a {
+        font-size: 10px;
+        .navbar_options {
+          margin: 0px;
+          &:hover {
+            color: rgb(79, 219, 230);
+          }
+        }
+      }
+      .activeNav {
+        font-size: 12px;
+      }
+    }
+  }
+}

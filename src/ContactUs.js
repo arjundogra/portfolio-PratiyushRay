@@ -20,22 +20,22 @@ function ContactUs() {
         RESUME
       </a>
       <div className="icons">
-        <a href="https://instagram.com" target="_blank">
+        <a href="tel:9991234846">
           <PhoneIcon />
         </a>
-        <a href="https://instagram.com" target="_blank">
+        <a href="mailto:pkray0021@gmail.com">
           <EmailIcon />
         </a>
-        <a href="https://instagram.com" target="_blank">
+        <a href="https://github.com/pratiyushray" target="_blank">
           <GitHubIcon />
         </a>
-        <a href="https://instagram.com" target="_blank">
+        <a href="https://www.linkedin.com/in/pratiyushray/" target="_blank">
           <LinkedInIcon />
         </a>
-        <a href="https://instagram.com" target="_blank">
+        <a href="https://instagram.com/pratiyush_ray" target="_blank">
           <InstagramIcon />
         </a>
-        <a href="https://instagram.com" target="_blank">
+        <a href="https://twitter.com/RayPratiyush" target="_blank">
           <TwitterIcon />
         </a>
       </div>
