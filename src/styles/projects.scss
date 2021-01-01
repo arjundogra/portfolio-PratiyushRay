@@ -62,3 +62,34 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  .projects {
+    .projects_container {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .projects_title {
+        font-size: 20px;
+        padding-top: 20px;
+        margin: 0px;
+      }
+      .projects_panel {
+        flex-wrap: wrap;
+        width: 200px;
+
+        .projects_panel_data {
+          margin: 10px 5px;
+          box-shadow: none;
+          img {
+            width: 100px;
+          }
+          .project_panel_data_title {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

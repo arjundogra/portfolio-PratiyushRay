@@ -110,4 +110,37 @@
   }
 }
 
-// Border
+@media (max-width: 425px) {
+  .skills {
+    .skills_container {
+      min-height: 300px;
+      .skills_title {
+        font-size: 20px;
+      }
+      .react-tabs {
+        border: none;
+        min-height: 0px;
+        padding: 0px;
+        .react-tabs__tab-list {
+          .react-tabs__tab {
+            border: none;
+            font-size: 10px;
+          }
+        }
+        .tabPanel {
+          .icon_panels {
+            padding: 5px 10px;
+            margin: 5px;
+            .icon_logo {
+              display: none;
+              margin: 0px;
+            }
+            .icon_name {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
