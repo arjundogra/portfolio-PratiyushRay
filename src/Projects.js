@@ -11,7 +11,7 @@ function Projects() {
             <img src="/UIETapp.jpeg" />
             <p className="project_panel_data_title">UIET KUK App</p>
             <div className="project_links">
-              <a href="github.com">
+              <a href="https://github.com/pratiyushray/UIET-KUK-APP">
                 <GitHubIcon />
               </a>
             </div>
@@ -20,7 +20,7 @@ function Projects() {
             <img src="/Atenmal.jpeg" />
             <p className="project_panel_data_title">Atenmal</p>
             <div className="project_links">
-              <a href="github.com">
+              <a href="https://github.com/pratiyushray/Atenmal-Device">
                 <GitHubIcon />
               </a>
             </div>

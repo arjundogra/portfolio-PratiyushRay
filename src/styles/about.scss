@@ -45,7 +45,29 @@
     }
   }
 }
-@media (max-width: 425px) {
+@media only screen and (max-width: 1120px) {
+  .about {
+    .about_info {
+      width: 70%;
+      border: none;
+      .about_title {
+      }
+      .about_info_data {
+        flex-direction: column-reverse;
+        padding: 0px 15px;
+        img {
+          width: 200px;
+        }
+        p {
+          font-size: 18px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
   .about {
     .about_info {
       width: 80%;

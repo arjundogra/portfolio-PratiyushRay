@@ -24,10 +24,13 @@
       border-left: 2px solid yellowgreen;
       padding-left: 10px;
       padding-top: 20px;
-      border-image-slice: 1;
 
       .experience_row_title {
         color: rgb(110, 255, 243);
+        p {
+          font-weight: 100;
+          font-size: 14px;
+        }
       }
       .experience_row_info {
         p {
@@ -85,6 +88,28 @@
     }
     to {
       opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .experience {
+    .experience_container {
+      width: 60%;
+      padding: 0px;
+      .experience_title {
+        font-size: 20px;
+      }
+      .experience_row {
+        border: none;
+        padding-left: 20px;
+        .experience_row_title {
+          font-size: 13px;
+        }
+        .experience_row_info {
+          font-size: 12px;
+        }
+      }
     }
   }
 }

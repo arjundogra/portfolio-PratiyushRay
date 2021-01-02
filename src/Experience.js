@@ -7,7 +7,8 @@ function Experience() {
         <h2 className="experience_title">EXPERIENCE</h2>
         <div className="experience_row">
           <div className="experience_row_title">
-            Developers Student Club (DSC), UIET KUK Tech Lead Cyber Security
+            Developers Student Club (DSC), UIET KUK
+            <p>Tech Lead Cyber Security</p>
           </div>
           <div className="experience_row_info">
             <p>August 2020 - Present</p>
