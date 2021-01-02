@@ -225,17 +225,20 @@
   .home {
     .home_container {
       width: 80%;
+      height: 350px;
+      justify-content: flex-end;
       flex-direction: column-reverse;
       .info {
         width: 80%;
         .line_one {
-          font-size: 14px;
+          font-size: 10px;
+          margin-bottom: 10px;
         }
         .line_two {
           font-size: 20px;
         }
         .line_three {
-          font-size: 12px;
+          font-size: 10px;
         }
       }
       img {

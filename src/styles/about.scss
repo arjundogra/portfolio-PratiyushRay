@@ -33,11 +33,14 @@
     .about_info_data {
       display: flex;
       align-items: center;
+
       img {
         width: 200px;
       }
       p {
         color: rgb(79, 219, 230);
+        font-weight: 300;
+        padding-left: 10px;
       }
     }
   }

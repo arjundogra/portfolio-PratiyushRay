@@ -10,7 +10,10 @@ function About() {
             Hi, I am Pratiyush Kumar Ray, an engineering student based in India.
             I have specialization in Cyber Security, Ethical Hacking,
             Penetration Testing, Vulnerability Analysis, Networking
-            Architecture, Linux.
+            Architecture, Linux.<br></br>
+            <br></br> Also, I love to work on Android Application Development
+            with the framework React Native with data management on Google
+            Firebase.
           </p>
           <img src="/img.jpg" />
         </div>
