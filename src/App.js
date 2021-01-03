@@ -10,7 +10,7 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import Logo from "./Logo";
 import React, { useState, useEffect } from "react";
-import PacmanLoader from "react-spinners/PacmanLoader";
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 
 function App() {
   const [loading, setloading] = useState(false);
@@ -22,7 +22,12 @@ function App() {
   }, []);
   return loading ? (
     <div className="loadingPage">
-      <PacmanLoader color={"#9acd32"} loading={loading} size={25} margin={2} />
+      <ClimbingBoxLoader
+        className="loader"
+        color={"#9acd32"}
+        loading={loading}
+        size={15}
+      />
     </div>
   ) : (
     <Router>
